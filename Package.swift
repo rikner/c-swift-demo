@@ -23,10 +23,10 @@ let package = Package(
         .target(
             name: "c-swift-demo",
             dependencies: [],
-            path: "Foo/Bar",
+            path: "Foo",
             sources: [
-                "Dummy.swift",
-                "../../Sources/c-swift-demo/c_swift_demo.swift"
+                "Foo.swift",
+                "../Bar/Bar.swift"
             ]
         )
     ]

@@ -1,5 +1,5 @@
-# c-swift-demo
+# SwiftPM 5.2 bug
 
-Trying to repoduce "symbol not found" error when calling a "@_cdecl" function in a dynamic libray compiled with Swift 5.2
-
-> ./build_run.sh
+Minimal example for a Swift 5.2 SPM bug.
+Just run `swift build`.
+This builds fine with Swift 5.1 but not with Swift 5.2
